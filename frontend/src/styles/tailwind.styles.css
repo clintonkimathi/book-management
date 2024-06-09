@@ -552,6 +552,10 @@ html,
   --tw-contain-style:  ;
 }
 
+.static {
+  position: static !important;
+}
+
 .absolute {
   position: absolute !important;
 }
@@ -568,6 +572,18 @@ html,
   margin: auto !important;
 }
 
+.m-5 {
+  margin: 1.25rem !important;
+}
+
+.m-4 {
+  margin: 1rem !important;
+}
+
+.m-6 {
+  margin: 1.5rem !important;
+}
+
 .mt-5 {
   margin-top: 1.25rem !important;
 }
@@ -580,12 +596,52 @@ html,
   margin-right: 0.25rem !important;
 }
 
+.mr-6 {
+  margin-right: 1.5rem !important;
+}
+
+.ml-5 {
+  margin-left: 1.25rem !important;
+}
+
+.ml-8 {
+  margin-left: 2rem !important;
+}
+
+.ml-\[5\%\] {
+  margin-left: 5% !important;
+}
+
+.mt-2 {
+  margin-top: 0.5rem !important;
+}
+
+.mt-10 {
+  margin-top: 2.5rem !important;
+}
+
+.mt-\[205\] {
+  margin-top: 205 !important;
+}
+
+.mt-\[20\%\] {
+  margin-top: 20% !important;
+}
+
+.mt-\[10\%\] {
+  margin-top: 10% !important;
+}
+
 .block {
   display: block !important;
 }
 
 .flex {
   display: flex !important;
+}
+
+.h-\[4rem\] {
+  height: 4rem !important;
 }
 
 .w-\[50\%\] {
@@ -608,8 +664,24 @@ html,
   width: 30rem !important;
 }
 
+.w-\[2rem\] {
+  width: 2rem !important;
+}
+
+.w-\[3rem\] {
+  width: 3rem !important;
+}
+
+.w-\[5rem\] {
+  width: 5rem !important;
+}
+
 .flex-wrap {
   flex-wrap: wrap !important;
+}
+
+.items-center {
+  align-items: center !important;
 }
 
 .justify-center {
@@ -655,6 +727,33 @@ html,
   line-height: 1rem !important;
 }
 
+.text-xl {
+  font-size: 1.25rem !important;
+  line-height: 1.75rem !important;
+}
+
+.text-2xl {
+  font-size: 1.5rem !important;
+  line-height: 2rem !important;
+}
+
+.text-4xl {
+  font-size: 2.25rem !important;
+  line-height: 2.5rem !important;
+}
+
+.text-\[30\%\] {
+  font-size: 30% !important;
+}
+
+.text-\[50rem\] {
+  font-size: 50rem !important;
+}
+
+.text-\[10rem\] {
+  font-size: 10rem !important;
+}
+
 .font-light {
   font-weight: 300 !important;
 }
@@ -665,6 +764,21 @@ html,
 
 .font-normal {
   font-weight: 400 !important;
+}
+
+.text-white {
+  --tw-text-opacity: 1 !important;
+  color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+}
+
+.text-\[\#335c6e\] {
+  --tw-text-opacity: 1 !important;
+  color: rgb(51 92 110 / var(--tw-text-opacity)) !important;
+}
+
+.text-\[\#F76434\] {
+  --tw-text-opacity: 1 !important;
+  color: rgb(247 100 52 / var(--tw-text-opacity)) !important;
 }
 
 .filter {
