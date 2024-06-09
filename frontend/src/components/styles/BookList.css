@@ -1,0 +1,28 @@
+
+  .book-item {
+    flex: 0 0 15%;
+    margin: 10px; 
+  }
+  
+  .book-details {
+    width: 100%;
+    text-align: center;
+  }
+  .book-details img {
+    width: 100%;
+    height: auto;
+  }
+  .book-title {
+    line-height: 1.5;
+    color: rgb(44, 50, 50);
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .book-author {
+    line-height: 1.5;
+    color: rgb(157, 169, 170);
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
